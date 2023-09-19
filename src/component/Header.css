@@ -1,0 +1,86 @@
+header {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+  background: url("../assets/bg-home.jpg") center no-repeat;
+}
+header .header-overlay {
+  background-color: rgb(77, 40, 148, 0.8);
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  overflow: hidden;
+  height: auto;
+  min-height: 90vh;
+}
+header .header-overlay .row {
+  margin: 60px 0px;
+}
+header h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 35px 0px;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  line-height: 80px;
+}
+header p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 35px 0px;
+}
+header form {
+  margin: 25px auto;
+  width: 50%;
+  max-width: 100%;
+  padding: 7px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+header form input {
+  background-color: #fff;
+  border: 1px solid #fff;
+  outline: none !important;
+  width: 500px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: left;
+  color: #1f1f1f;
+  font-size: 16px;
+  padding-left: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: end; */
+}
+header form button {
+  background-color: #fb3e3e;
+  border: 1px solid #fb3e3e;
+  width: 140px;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  margin: 7px 7px;
+ 
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+}
+
+@media only screen and (max-width: 400px) {
+ 
+}

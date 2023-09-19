@@ -1,0 +1,82 @@
+.prices{
+    margin: 50px 0;
+    padding: 25px 0px;
+}
+.prices h2{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px ;
+    margin: 25px 0px;
+    font-weight: bold;
+
+}
+.prices p{
+    color: #777;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 20px 0;
+    font-weight: 400px;
+}
+.prices .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 35px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid #f6f6f6;
+    box-sizing:border-box ;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+.prices .box:hover{
+    margin: 15px 0px;
+}
+
+.prices .box h6{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+.prices .box h4{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+.prices .box span{
+    font-size: 14px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: #777;
+}
+.prices .box ul{
+    margin: 40px 0px;
+    padding: 0px;
+}
+.prices .box ul li{
+    color: #fb3e3e;
+    font-size: 13px;
+    margin: 25px 0px;
+    font-weight: bold;
+}
+.prices .box ul li span{
+    color: #000;
+    margin: 5px 0px;
+}
+.prices button{
+    background-color: #fb3e3e;
+    border: 1px solid #fb3e3e;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align:center;
+    color: #fff;
+    text-transform: capitalize;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 15px;
+
+}

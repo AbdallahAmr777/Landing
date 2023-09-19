@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik', sans-serif;
+font-family: 'Tajawal', sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+}
+section{
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+}
+p{
+  line-height: 30px;
+  color: #212121;
+}
+span{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none !important;
+}
+li{
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
 }
